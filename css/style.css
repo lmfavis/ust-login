@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	background-color: #eee;
+	color: #666;
+}
+
+.login-container {
+	height: 100vh;
+	width: 100%;
+}
+
+.cloud-campus-img {
+	width: 100%;
+}
+
+.login-form {
+	width: 370px;
+	padding: 1em;
+}
+
+.login-form h1 {
+	font-weight: 400;
+}
+
+.login-form a {
+	text-decoration: none;
+	color: #eb983a;
+}
+
+.login-form a:hover {
+	color: #c78131;
+}
+
+.form-control {
+	font-size: 1rem;
+}
+
+.form-control:focus {
+	border-color: #eb983a !important;
+	box-shadow: 0 0 10px rgb(255, 219, 61) !important;
+}
+
+.forgot-link {
+	font-size: 0.8rem;
+}
+
+.form-check {
+	margin-bottom: 0;
+}
+
+.btn-custom {
+	color: #eee;
+	background-color: #eb983a;
+    border-color: #eb983a;
+    transition: all .4s ease;
+}
+
+.btn-custom:hover {
+	color: #eee;
+	background: #c78131;
+	border-color: #c78131;
+}
+
+.btn-custom:active {
+    transform: scale(.9);
+}
+
+.register {
+	font-size: 0.9rem;
+}
